@@ -3,7 +3,9 @@ description: Writing about code, psychology and the psychedelic mind process
 meta_description: "Writing about code, psychology and the psychedelic mind process"
 
 markdown: kramdown
-highlighter: pygments
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 logo: false
 paginate: 10
 baseurl: /
