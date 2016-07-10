@@ -1,3 +1,5 @@
 _site/
 *Thumbs.db
 .idea/
+.sass-cache/
+.jekyll-metadata
