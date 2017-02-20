@@ -24,18 +24,14 @@ para o trabalho proposto e assim encontrei a excelente biblioteca Records.
 
 Do mesmo criador da biblioteca [requests](http://docs.python-requests.org/en/master/). A introdução já adianta o que vem pela frente:
 
-```
-Records is a very simple, but powerful, library for making raw SQL queries to most relational databases.
+*Records is a very simple, but powerful, library for making raw SQL queries to most relational databases.
 Just write SQL. No bells, no whistles. This common task can be surprisingly difficult with the standard tools available. 
-This library strives to make this workflow as simple as possible, while providing an elegant interface to work with your query results.
-```
+This library strives to make this workflow as simple as possible, while providing an elegant interface to work with your query results.*
 
 Com o mesmo principio da biblioteca requests a records foi desenvolvida
 em cima da seguinte filosofia:
 
-```
-A library for humans
-```
+*A library for humans*
 
 Para quem já utilizou requests sabe que realmente é simples
 fazer uma requisição http e essa mesma facilidade se aplica a Records.
@@ -46,6 +42,7 @@ com alguns dados fakes (mock data). Para que sirva de overview e quem sabe
 sirva também como "criador" de coragem para seu próximo projeto.
 
 ## Instalação
+No momento que escrevo o texto, utilizo python em sua versão 2.7.x.
 
 É recomendado instalar a bibiloteca via pip:
 
