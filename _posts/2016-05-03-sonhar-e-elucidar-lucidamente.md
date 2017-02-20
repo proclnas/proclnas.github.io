@@ -5,10 +5,8 @@ date:   2016-05-03 10:18:00
 categories: ludic-dream
 ---
 
-Faz tempo que queria transcrever algo sobre sonhos ao meio de tanta computaria.
-Aqueles que convivo sabem exatamente o quão gosto de falar sobre :) .
-
-Depois de alguns episódios rabiscando código resolvi escrever um pouco sobre 
+Faz tempo que queria transcrever algo sobre sonhos ao meio de tanta computaria e
+depois de alguns episódios rabiscando código resolvi escrever um pouco sobre 
 sonhos, especificamente sobre os tão (ou não) falados sonhos lúcidos, 
 que parei inclusive um pouco de me dedicar de uma estação para outra.
  
