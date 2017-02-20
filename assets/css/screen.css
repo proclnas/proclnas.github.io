@@ -179,7 +179,7 @@ body {
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
-    line-height: 1.75em;
+    /*line-height: 1.75em;*/
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
@@ -345,7 +345,7 @@ pre {
     font-size: 0.9em;
     white-space: pre;
     overflow: auto;
-    background: #F7FAFB;
+    background: #f2f2f2;
     border-radius: 3px;
 }
 
@@ -716,8 +716,8 @@ margin on the iframe, cause it breaks stuff. */
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
-    width: 80%;
-    max-width: 710px;
+    width: 100%;
+    max-width: 60%;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
