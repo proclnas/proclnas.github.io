@@ -354,9 +354,9 @@ with open('report.xls', 'wb') as f:
 
 
 ### Conclusão
-Para quem está acostumado com a facilidade do python, a biblioteca records é uma excelente escolha.
-Pretendo começar algum projeto com reports utilizando ela e darei mais um feedback sobre!
-É isso!
+Esse foi um post introdutório. Sinta-se livre para deixar um comentário ou sugerir melhorias!
+
+Forte abraço!
 
 ### Referência
 - [https://www.kennethreitz.org/essays/introducing-records-just-write-sql](https://www.kennethreitz.org/essays/introducing-records-just-write-sql)
