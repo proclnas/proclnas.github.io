@@ -149,7 +149,7 @@ echo $meuArray['nome'];
 Os arrays estarão sempre presentes no nosso código e é essencial aprendermos a manipular e otimizar a utilização dos mesmos!
 E não pare por aqui, leia a documentação: [Arrays/PHP.net](http://php.net/manual/pt_BR/language.types.array.php). Ela é a nossa melhor amiga quando estamos programando (ou não).
 
-Em breve finalizo a segunda parte! Aguarde!
+Em breve finalizo a segunda parte, Aguarde!
 Forte Abraço!
 
 ### Referência
