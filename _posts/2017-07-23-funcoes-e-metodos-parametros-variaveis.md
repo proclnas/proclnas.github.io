@@ -60,7 +60,7 @@ A partir dai podemos fazer algumas operações. Uma soma por exemplo utilizando 
 ```php
 <?php
 
-function soma(...$numberss) {
+function soma(...$numbers) {
     return array_sum($numbers);
 }
 
