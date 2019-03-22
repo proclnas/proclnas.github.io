@@ -5,6 +5,8 @@ date:   2017-07-23 19:00:00
 categories: dev
 ---
 
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+
 Em alguns momentos pode surgir a necessidade de se criar um método/função com argumentos variáveis.
 O próprio php possui funções que aceitam "n" argumentos, como por ex:
 
