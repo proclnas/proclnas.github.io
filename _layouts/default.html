@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>{{ site.name }} - {{ site.description }}</title>
-    <meta name="description" content="{{ site.meta_description}}" />
-
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
-
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  {% include head.html %}
 
 
-    <!-- Customisation  -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+  {% if site.theme_mode == 'markdown' %}
+  <body class="hack">
+  {% elsif site.theme_mode == 'standard' %}
+  <body class="standard">
+  {% elsif site.theme_mode == 'dark' %}
+  <body class="hack dark">
+  {% endif %}
 
-    {% seo %}
-</head>
-<body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
+    {% include github-ribbon.html %}
 
-    {{ content }}
-    <footer class="site-footer clearfix">
-      <section class="copyright">
-        <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy;
-              {{date format="YYYY"}} &bull; All rights reserved.
-      </section>
+    <div class="container">
+      <div class="grid">
+        <aside class="cell -3of12" role="navigation">
+          {% include navigation.html %}
+        </aside>
 
-      <section class="poweredby">Made with Jekyll using Kasper theme</section>
-    </footer>
+        <main class="cell -9of12">
+          {{ content }}
+        </main>
+      </div>
 
-    <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
-    <script type="text/javascript" src="/assets/js/index.js"></script>
+    {% include footer.html %}
 
-    {% include analytics.html %}
-</body>
+    </div>
+
+    <!-- Prism.js -->
+    <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
+  </body>
+
 </html>

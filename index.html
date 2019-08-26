@@ -1,90 +1,66 @@
 ---
 layout: default
-title: Home
-cover: false
-about: 'about.html'
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
+<div>
 
-            <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
+  <section>
+    <h1>Jekyll theme based on hack.css</h1>
 
-                {% if page.about %}
-                    <p><a href='{{ site.baseurl }}{{ page.about }}'> About me </a></p>
-                {% endif %}
-            </h2>
+    <p>
+      Mobile-ready, modern, stylish, simple.
+    </p>
+  </section>
 
-            <div class="social">
-                <p>
-                    <a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                    <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-</header>
+  <section>
+    <h2>What is Jekyll?</h2>
 
+    <p>
+      <code>Jekyll</code> is a simple, blog-aware, static site generator
+      perfect for personal, project,
+      or organization sites. Think of it like a
+      file-based CMS, without all the complexity.
+      <code>Jekyll</code> takes your content, renders Markdown
+      and Liquid templates, and spits out a
+      complete, static website ready to be served by Apache,
+      Nginx or another web server.
+      <code>Jekyll</code> is the engine behind GitHub Pages,
+      which you can use to host sites right
+      from your GitHub repositories.
+    </p>
+  </section>
 
-<main id="content" class="content" role="main">
+  <section>
+    <h2>What is hack.css?</h2>
 
+    <p>
+      <code>hack.css</code> is a dead simple css framework. Chech out
+      <a href="https://hackcss.egoist.moe/">hackcss.egoist.moe</a> to know more.
+    </p>
+  </section>
 
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
+  <section>
+    <h2>Getting started</h2>
 
-    {% for post in paginator.posts %}
+    <p>
+      <ol>
+        <li>Make sure you have <code>Jekyll</code> up and running</li>
+        <li>Clone
+          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
+        </li>
+        <li>Customize it</li>
+        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
+      </ol>
 
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-                {{ site.author.name }}
-            {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-            </time> 
-        </footer>
-    </article>
+    </p>
+  </section>
 
-    <!-- Capser below -->
-<!--     <article class="{{post_class}}">
-    <header class="post-header">
-        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
-    </header>
-    <section class="post-excerpt">
-        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
-    </section>
-    <footer class="post-meta">
-        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
-        {{author}}
-        {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
-    </footer>
-    </article> -->
-    <!--  -->
+  <section>
+    <h2>Subscribe</h2>
 
-    {% endfor %}
+    <p>
+      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    </p>
+  </section>
 
-    {% include pagination.html %}
-
-</main>
+</div>

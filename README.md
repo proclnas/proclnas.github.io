@@ -1,38 +1,27 @@
-# Kasper
+# jekyll-theme-hackcss
 
-This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
+[Dead simple CSS framework](https://hackcss.egoist.moe/) now with Jekyll.
 
-## How to use it
+Mobile-ready, modern, stylish, simple.
 
-Simply clone this repository, and then run `jekyll serve` inside the directory.
+## Theme modes
 
-Kasper theme includes:
+This theme comes in three modes, which could be configured in `_config.yml`.
 
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
+![Markdown](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/markdown.png)
 
-## Screenshots
+![Standard](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/standard.png)
 
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+![Dark](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/dark.png)
 
+## Installation
 
-## Thanks 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
+Clone this repo. Create your own website. Easy.
 
-## Copyright & License
+## Configuration
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+See [docs](https://github.com/wemake-services/jekyll-theme-hackcss/blob/gh-pages/docs.md).
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+## License
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+GNU PGL 3. See [LICENSE](https://github.com/wemake-services/jekyll-theme-hackcss/blob/3cbe97b71a56a19eba386dd928e125b71e50c71e/LICENSE) for more information.
