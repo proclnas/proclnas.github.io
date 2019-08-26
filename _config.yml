@@ -11,7 +11,7 @@ sass:
   style: compressed
 
 # Theme settings
-theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
+theme_mode: dark  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 your_name: proclnas
@@ -22,8 +22,6 @@ navigation:
     url: /
   - text: Docs
     url: /docs
-  - text: Examples
-    url: /examples
 
 projects:
   - name: git-secret
